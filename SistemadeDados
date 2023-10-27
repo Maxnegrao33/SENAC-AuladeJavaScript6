@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Maciel Oliveira">
+    <title>Sistema</title>
+</head>
+<body>
+    <script>
+        let informacosDispositivo = {
+            tipoDispositivo : navigator,plataform,
+            larguraTela : window.screen.width,
+            idiomaNavegador : navigator.language
+        }
+        console.log(informacosDispositivo)
+
+    </script>
+</body>
+</html>
